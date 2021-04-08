@@ -8,9 +8,9 @@ const { response } = require('express');
 
 function score(importedJSON, newCaso, registros){
     importedJSON.forEach(element => {
-        element.forEach(question){
+        //element.forEach(question){
 
-        }
+        //}
     });
     //console.log(importedJSON);
 }
