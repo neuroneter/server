@@ -13,6 +13,7 @@ const Brands = require('./routes/Brands.js');
 const Products = require('./routes/Products.js');
 const WebHook = require('./routes/WebHook.js');
 const ScoreDps = require('./routes/ScoreDps.js');
+const cristian = require('./routes/cristian.js');
 const bodyParser = require('body-parser');
 const cors = require('cors');
 
@@ -45,5 +46,6 @@ app.use('/stores',Stores);
 app.use('/products',Products);
 app.use('/webhook',WebHook);
 app.use('/scoredps',ScoreDps);
+app.use('/cristian',cristian);
 
 module.exports = {app};
